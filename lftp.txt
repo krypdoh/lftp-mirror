@@ -1,0 +1,4 @@
+set ssl:verify-certificate no
+connect ftp://krypdoh:passwordhere@remoteserver:port
+mirror -v --parallel=10 -c /home/krypdoh/downloads "/cygdrive/e/new downloads"
+bye
